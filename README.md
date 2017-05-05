@@ -1,5 +1,7 @@
 # pypassport-2.0
-Taken from epassportviewer and added support for Dutch ECDSA Active Authentication
+Taken from epassportviewer and added support for Dutch ECDSA Active Authentication.
+
+__Note: Also needs a modified version of python-ecdsa because of support for brainpoolp320r1, which can be found in [this pull request](https://github.com/warner/python-ecdsa/pull/61/commits/91140ad7b2840a97184fc31b0aac5b13c15bf22d)__
 
 ## pyPassport Installation Instructions
 
